@@ -9,7 +9,7 @@ import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact Me Page/Contact";
 import Footer from "./Components/Footer/Footer";
 import ReactGA from "react-ga";
-// import Logo from "./Components/Skills/Logo";
+
 function App() {
   useEffect(() => {
     ReactGA.initialize("284514275");
