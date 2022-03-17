@@ -1,47 +1,39 @@
-import LightWave from "../Waves/LightWave";
-import { NavHashLink } from "react-router-hash-link";
-import { useEffect } from "react";
-import Aos from "aos";
+import { FaGithub, FaLinkedin,  FaTwitter } from "react-icons/fa";
+import { SiRedux,SiMysql } from "react-icons/si";
+import {  DiJavascript,DiHtml5,DiCss3,DiJavascript1,DiJava,DiPython ,DiReact,DiNodejs,DiBootstrap,DiMongodb} from "react-icons/di";
 import "./Skills.css";
-import "aos/dist/aos.css";
-
+import LightWave from "../Waves/LightWave";
 function Skills() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
-    <section id="about" className="about">
-      <div data-aos="fade-right" className="about__text">
-        <h2 className="about__heading">About Me</h2>
-        <p className="about__body">
-          Hello! My name is Ajay Vishwakarma and I am a second-year Computer Science
-          Student attending the{" "}
-          <span className="about__specialText">University of Alberta.</span>{" "}
-          Currently, I am very interested in{" "}
-          <span className="about__specialText">backend development</span>,
-          creating APIs, and working with databases. As well, I am extremely
-          interested in Data Science, more specifically <span className="about__specialText">Artificial
-          Intelligence</span> and <span className="about__specialText">Machine Learning.</span>
-        </p>
-        <br />
-        <p className="about__body">
-          You can reach out to me on my{" "}
-          <NavHashLink className="about__specialText" smooth to="#contact">
-            contact
-          </NavHashLink>{" "}
-          page
-        </p>
-      </div>
-      <img
-        className="about__headshot"
-        src="/images/ajay-vishwakrma.png"
-        alt="Brand Logo"
-        width="300"
-        height="300"
-      />
-      <LightWave />
-    </section>
+    <div id="skills">
+    <div className="about_1">
+      <h2 id="head">Skills</h2>
+    <div className="Icons">
+      
+      
+      <div className="iconId">
+        <DiHtml5 className="socialMediaIcons__github footer__icon" size={70} />
+        <DiCss3 className="socialMediaIcons__github footer__icon" size={70} />
+        <DiJavascript1 className="socialMediaIcons__github footer__icon" size={70} />
+        <DiReact className="socialMediaIcons__github footer__icon" size={70} />
+        <DiPython className="socialMediaIcons__github footer__icon" size={70} />
+          </div>
+          <div className="iconId">
+          <DiJava className="socialMediaIcons__github footer__icon" size={70} />
+          <SiRedux className="socialMediaIcons__github footer__icon" size={70} />
+          <DiBootstrap className="socialMediaIcons__github footer__icon" size={70} />
+          <DiNodejs className="socialMediaIcons__github footer__icon" size={70} />
+          <DiMongodb className="socialMediaIcons__github footer__icon" size={70} />
+          </div>
+          <div className="iconId">
+         
+          <SiMysql className="socialMediaIcons__github footer__icon" size={70} />
+      
+          </div>
+      <LightWave/>
+    </div>
+    </div>
+    </div>
   );
 }
 

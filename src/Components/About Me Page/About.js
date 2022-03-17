@@ -35,7 +35,7 @@ function About() {
       </div>
       <img
         className="about__headshot"
-        src="/images/ajay-vishwakrma.png"
+        src=""
         alt="Brand Logo"
         width="300"
         height="300"

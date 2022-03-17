@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin,  FaTwitter } from "react-icons/fa";
+import {  DiJavascript } from "react-icons/di";
 import "./SocialMediaIcons.css";
 
 function SocialMediaIcons() {
@@ -24,17 +25,7 @@ function SocialMediaIcons() {
           size={30}
         />
       </a>
-      {/* <a
-        href="https://www.instagram.com/jack.par/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="my Instagram"
-      >
-        <FaInstagram
-          className="socialMediaIcons__instagram footer__icon"
-          size={30}
-        />
-      </a> */}
+     
       <a
         href="https://twitter.com/ajay_k_vishwa"
         target="_blank"

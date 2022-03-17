@@ -11,50 +11,36 @@ function Project1({ id }) {
   return (
     <article id={id} className="project light">
       <div className="project__main">
-        <img
-          className="project__image project__specialMobileImage"
-          src="/images/health_fusion_home.png"
-          alt="Health Fusion Project Home Page"
-          width="15%"
-          height="auto"
-          loading="lazy"
-        />
+        
         {isDesktopOrLaptop ? (
           <>
             <img
               className="project__image"
               src="/images/health_fusion_add.png"
               alt="Health Fusion Map Page"
-              width="15%"
+              width="45%"
               height="auto"
               loading="lazy"
             />
-            <img
-              className="project__image"
-              src="/images/health_fusion_map.png"
-              alt="Health Fusion Project Add Page"
-              width="15%"
-              height="auto"
-              loading="lazy"
-            />
+      
           </>
         ) : (
           <> </>
         )}
 
         <div data-aos="fade-left" className="project__right">
-          <h3 className="project__title">Health Fusion</h3>
+          <h3 className="project__title">Levi's in</h3>
           <p className="project__description project__body">
-            A <span className="project__specialText">mobile app</span> built to
-            help manage life. Allows users to{" "}
+            An <span className="project__specialText">E-commerce website </span> built to
+            Bying Clothing items. Allows users to{" "}
             <span className="project__specialText">
-              manage all of their medications
+              Order the products that are required
             </span>
-            , with an intuitive add button combined with a simple home screen to
-            checkoff all medications. An enjoyable{" "}
-            <span className="project__specialText">calendar view</span> is
+            , with an intuitive add button combined with a simple home page to
+            checkoff all Products. An enjoyable{" "}
+            <span className="project__specialText">Store locator</span> is
             available for all users so they can view their{" "}
-            <span className="project__specialText">medication history</span>
+            <span className="project__specialText">Levi's Store  in India</span>
             from the past or look to the future and see what they need to take.
             Finally, users are also given a{" "}
             <span className="project__specialText">map view</span> so that they
@@ -67,7 +53,7 @@ function Project1({ id }) {
           </p>
           <a
             className="project__sourceCode"
-            href="https://github.com/jackparsonss/health-fusion"
+            href="https://github.com/Ajaykvishwakarma/levi_backend"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="=Website GitHub Repository"
