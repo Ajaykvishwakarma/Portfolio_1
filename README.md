@@ -2,8 +2,8 @@
   <img width="200" alt="personal brand logo" src="https://user-images.githubusercontent.com/62918090/131276389-3c3b435f-bbc8-4571-96b5-38acc76590d5.png">
 </div>
   
-# <p align="center">👋 Jack Parsons Portfolio Website</div>
-### <p align="center"> Hosted @ <a href="https://jackparsonss.me">jackparsonss.me</a>, built with react and CSS </p>
+# <p align="center">👋 Ajay Vishwakarma's Portfolio Website</div>
+### <p align="center"> Hosted @ <a href="#">ajayvishwakarma.me</a>, built with react and CSS </p>
 
 <br />
 
